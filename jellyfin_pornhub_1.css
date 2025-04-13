@@ -1,0 +1,90 @@
+/* Overall Body */
+body {
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: 'Arial', sans-serif; /* Clean font */
+}
+
+/* Header Styles */
+.header {
+    background-color: #ffcc00; /* Pornhub yellow */
+    color: #212121; /* Text color in header */
+    padding: 10px; /* Padding around header */
+    border-bottom: 2px solid #fff; /* White bottom border */
+}
+
+.header a {
+    color: #212121; /* Header link color */
+    text-decoration: none;
+    font-weight: bold; /* Make header links bold */
+}
+
+.header a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Navigation Styles */
+.navigation {
+    background-color: #212121; /* Dark background for navigation */
+}
+
+.navigation a {
+    color: #ffffff; /* White text for nav links */
+}
+
+/* Button Styles */
+.button,
+.button-primary {
+    background-color: #ffcc00; /* Yellow background */
+    color: #212121; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 15px; /* Padding */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+.button:hover,
+.button-primary:hover {
+    background-color: #e6b800; /* Darken yellow on hover */
+}
+
+/* Card Styles */
+.card {
+    background-color: #2d2d2d; /* Dark grey background for cards */
+    border: 1px solid #ffcc00; /* Yellow border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Inner padding for cards */
+    margin: 10px; /* Outer margin */
+    transition: transform 0.3s; /* Transition for hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Thumbnail Styles */
+.thumb {
+    border-radius: 5px; /* Rounded thumbnails */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #212121; /* Dark footer */
+    padding: 10px;
+    text-align: center;
+    color: #ffffff; /* White text in footer */
+}
+
+/* Additional Tweaks for Better Presence */
+.item-title {
+    color: #ffcc00; /* Title color to match Pornhub theme */
+    font-weight: bold; 
+}
+
+/* Other element styling */
+.container {
+    max-width: 1200px; /* Set a max width for the content */
+    margin: 0 auto; /* Center align */
+    padding: 15px; /* Inner padding */
+}
